@@ -1,11 +1,11 @@
-# 🩺 Diabetes Prediction (women) – Machine Learning Practice Project
+# Diabetes Prediction (women) – Machine Learning Practice Project
 
 This project uses **Machine Learning** to predict whether a person has **diabetes** based on medical test data.
 It’s built as a **practice project** to understand data preprocessing, scaling, training, and prediction using **Support Vector Machine (SVM)**.
 
 ---
 
-## 🔍 Project Overview
+## Project Overview
 
 * **Goal:** Predict if a person is diabetic or not
 * **Algorithm Used:** Support Vector Machine (SVM)
@@ -19,7 +19,7 @@ It’s built as a **practice project** to understand data preprocessing, scaling
 
 ---
 
-## ⚙️ Steps and Workflow
+## Steps and Workflow
 
 ### 1. Importing Required Libraries
 
@@ -55,7 +55,7 @@ scaler.fit(data)
 standardized_data = scaler.transform(data)
 ```
 
-🔸 Standardization ensures all feature values are in the same range, helping the model learn effectively.
+ Standardization ensures all feature values are in the same range, helping the model learn effectively.
 
 ### 5. Splitting Dataset
 
@@ -95,7 +95,7 @@ If prediction = 1 → Diabetic
 
 ---
 
-## 🧠 What I Learned
+## What I Learned
 
 * How to preprocess data using Pandas and NumPy
 * The importance of data standardization using `StandardScaler`
@@ -104,7 +104,7 @@ If prediction = 1 → Diabetic
 
 ---
 
-## 🚀 Future Improvements
+## Future Improvements
 
 * Add GUI or web interface for user input
 * Compare SVM with Logistic Regression or Random Forest
@@ -112,7 +112,7 @@ If prediction = 1 → Diabetic
 
 ---
 
-### ✅ Author
+### Author
 
 **Aruna Madugeeth**
 Machine Learning Practice Project | SVM | Diabetes Detection | Python | Scikit-learn
